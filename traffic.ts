@@ -5,7 +5,7 @@ interface lastIndexReserveType {
   }
   
   class Intersect {
-    readonly cars_throughput_rate: number; // 2 cars/second
+    readonly cars_throughput_rate: number; // rate of cars passing by
     lastIndexReserve: lastIndexReserveType;
     numberOfIntersections: number;
     intersects: Array<Array<number>> = [];
